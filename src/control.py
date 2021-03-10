@@ -10,6 +10,15 @@
 # Reference provided at: https://learn.adafruit.com/adafruit-4-channel-adc-breakouts/python-circuitpython
 
 
+#----------------------------------------------Template--------------------------------------------------#
+#This is a brief template on creating new threading modules
+# 1. Create a class, for example: class adc_sensors(object):
+# 2. Copy all the exiting initialization functions for sensors
+# 3. Add the new initialization function for the new sensor/device
+# 4. Set up the threading module at the end of this file, this includes:
+# 4.1. 
+
+
 import RPi.GPIO as GPIO
 import time
 import board
